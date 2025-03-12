@@ -17,30 +17,30 @@ Project description.
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/gozmanthefirst/repo-name.git
-cd repo-name
-```
+    ```bash
+    git clone https://github.com/gozmanthefirst/repo-name.git
+    cd repo-name
+    ```
 
 2. Install dependencies:
 
-```bash
-pnpm install
-```
+    ```bash
+    pnpm install
+    ```
 
 3. Set up environment variables:
 
-```bash
-cp .env.example .env
-```
+    ```bash
+    cp .env.example .env
+    ```
+    
+    Edit `.env` with your configuration.
 
-Edit `.env` with your configuration.
+4. Start the development server:
 
-1. Start the development server:
-
-```bash
-pnpm dev
-```
+    ```bash
+    pnpm dev
+    ```
 
 The application will be available at `http://localhost:3000`
 
