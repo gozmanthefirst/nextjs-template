@@ -19,7 +19,12 @@ const eslintConfig = [
         {
           mode: "full",
           type: "global",
-          pattern: ["src/global/**/*", "src/styles/**/*"],
+          pattern: [
+            "src/global/**/*",
+            "src/styles/**/*",
+            "src/shared/**/*",
+            "src/providers/**/*",
+          ],
         },
         {
           mode: "full",
@@ -51,7 +56,7 @@ const eslintConfig = [
           rules: [
             {
               from: ["global"],
-              allow: ["global"],
+              allow: ["global", "feature"],
             },
 
             // Allow imports from a global folder to a feature file
